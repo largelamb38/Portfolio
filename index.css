@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Montserrat, sans-serif;
+    width: 100%;
+}
+.header {
+	z-index: 1;
+	background: linear-gradient(-45deg, #E8A49C, #3C4CAD, #240E8B, #F04393, #F9C449);
+	background-size: 300% 300%;
+	width: 100%;
+	height: 100%;
+	animation: animate 15s ease infinite;
+}
+.header ul {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.header ul li {
+	display: inline-block;
+	padding: 40px 15px;
+}
+.header ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.header ul li a:hover {
+	background: #fff;
+	color: #000;
+}
+.header h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	margin-top: 15%;
+	margin-bottom: 20px;
+}
+.header p {
+	text-align: center;
+	font-size: 18px;
+	width: 35%;
+	margin: auto;
+	color: #ddd;
+	line-height: 1.7;
+}
+@keyframes animate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.welcome {
+    padding-bottom: 300px;
+}
+
+.introContainer{
+    display: flex;
+    
+}
+
+.intro{
+    /* background-color: white; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    max-width: 50%;
+    font-size: 25px;
+    /* background: rgba(255, 255, 255, 0.1); */
+
+}
+
+.work {
+    text-align: center;
+    color: white;
+}
+
+.work h2 {
+    text-align: center;
+	color: #fff;
+	font-size: 60px;
+}
+
+.container1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    column-gap: 2.5%;
+    row-gap: 50px;
+}
+
+.product{
+    flex:1;
+    text-align: center;
+    border-style: solid;
+    color:#391BA0;
+    padding-left: 5px;
+    padding-bottom: 25px;
+    background-color: white;
+    max-width: 30vw;
+    border-radius: 10%;
+    text-decoration: none;
+    width: 400px;
+    height: 350px;
+}
+
+.product:hover {
+    box-shadow: 0 5px black;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+  .product:active {
+    transform: translateY(2px);
+    box-shadow: 0 5px #736FFF;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .pokemonCard{
+    margin-left: 5%;
+    text-align: center;
+    border-style: solid;
+    color:#391BA0;
+    padding-left: 5px;
+    padding-bottom: 25px;
+    background-color: white;
+    max-width: 30vw;
+    border-radius: 10%;
+    text-decoration: none;
+    border-color: #f74118;
+    border-width: 10px;
+  }
+
+  .pokemonCard img{
+    width: 70%;
+  }
+
+  .backie {
+    border-radius: 70%;
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 2%;
+  }
